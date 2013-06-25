@@ -38,7 +38,7 @@
 	var config = $.cookie = function (key, value, options) {
 
 		// write
-		if (value !== undefined) {
+		if (value isnt undefined) {
 			options = $.extend({}, config.defaults, options);
 
 			if (typeof options.expires === 'number') {
